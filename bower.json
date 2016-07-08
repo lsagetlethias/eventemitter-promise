@@ -1,0 +1,26 @@
+{
+  "name": "eventemitter-promise",
+  "description": "Event Emitter with lazy promise.",
+  "main": "bin/EventEmitter.browser.js",
+  "authors": [
+    "Lilian Saget-Lethias <lilian.sagetlethias@gmail.com> (http://github.com/bios21)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "event",
+    "eventemitter",
+    "lazy",
+    "promise",
+    "a+",
+    "then",
+    "thenable"
+  ],
+  "homepage": "https://github.com/bios21/eventemitter-promise#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
