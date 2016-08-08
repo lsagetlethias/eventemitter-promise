@@ -38,8 +38,5 @@
   "bugs": {
     "url": "https://github.com/bios21/eventemitter-promise/issues"
   },
-  "homepage": "https://github.com/bios21/eventemitter-promise#readme",
-  "dependencies": {
-    "superlazypromise": "0.0.1"
-  }
+  "homepage": "https://github.com/bios21/eventemitter-promise#readme"
 }
