@@ -1,6 +1,6 @@
 {
   "name": "eventemitter-promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Event Emitter with lazy promise.",
   "main": "bin/EventEmitter.node.js",
   "scripts": {
@@ -38,8 +38,5 @@
   "bugs": {
     "url": "https://github.com/bios21/eventemitter-promise/issues"
   },
-  "homepage": "https://github.com/bios21/eventemitter-promise#readme",
-  "dependencies": {
-    "superlazypromise": "0.0.1"
-  }
+  "homepage": "https://github.com/bios21/eventemitter-promise#readme"
 }

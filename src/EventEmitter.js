@@ -2,7 +2,7 @@
 
 var _module = null,
     _exports = null;
-if (module && module.exports) {
+if (typeof(module) !== 'undefined' && module.exports) {
     _exports = module.exports;
     _module = {
         SuperLazyPromise: require('superlazypromise').SuperLazyPromise

@@ -5,7 +5,7 @@ const   gulp = require('gulp'),
         gutil = require('gulp-util'),
         concat = require('gulp-concat');
 
-gulp.task('build', () => {
+gulp.task('build', ['clean'], () => {
     gutil.log('Build for Node ...');
     gulp.src('src/**/*.js')
         .pipe(babel({
@@ -33,10 +33,9 @@ gulp.task('clean', () => {
         .pipe(clean())
 });
 
-gulp.task('watch', ['cleanBuild'], () => {
+gulp.task('watch', ['build'], () => {
     gulp.watch(['bower.json', 'src/index.html'], ['bower']);
     gulp.watch('src/**/*.js', ['build']);
 });
 
 gulp.task('default', ['watch']);
-gulp.task('cleanBuild', ['clean', 'build']);
