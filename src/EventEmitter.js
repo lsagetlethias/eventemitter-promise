@@ -120,7 +120,7 @@ if (typeof(module) !== 'undefined' && module.exports) {
          * @private
          */
         _destroyPromise(event) {
-            this._promises[event].kill();
+            this._promises[event] && this._promises[event].kill();
             delete this._promises[event];
         }
 
