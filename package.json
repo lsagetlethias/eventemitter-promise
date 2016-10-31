@@ -1,6 +1,6 @@
 {
   "name": "eventemitter-promise",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Event Emitter with lazy promise.",
   "main": "bin/EventEmitter.node.js",
   "scripts": {
